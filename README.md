@@ -1,17 +1,28 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+The script takes a file with json format data and prints it in a pretty way
 
 # Quickstart
 
-[TODO]
+Python 3.5 required
+a file shall contain data in correct json format and full path to it shall be passed as a first argument
 
 Example of script launch on Linux, Python 3.5:
 
 ```#!bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+#  example of output
+[
+  {
+    "Number": 1,
+    "Id": "1",
+    "Cells": {
+      "Name": "John",
+      "cell_id": 14371450
+    }
+  }
+]
 
 ```
 
