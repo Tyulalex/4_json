@@ -4,7 +4,8 @@ The script takes a file with json format data and prints it in a pretty way
 
 # Quickstart
 
-Python 3.5 required \n
+Python 3.5 required
+
 A file shall contain data in correct json format and full path to it shall be passed as a first argument
 
 Example of script launch on Linux, Python 3.5:
