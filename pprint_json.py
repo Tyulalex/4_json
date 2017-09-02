@@ -7,10 +7,10 @@ def load_data(filepath):
         return json.loads(json_file.read())
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, indent=2))
+def pretty_print_json(json_content):
+    print(json.dumps(json_content, indent=2))
 
 
 if __name__ == '__main__':
-    raw_json_data = load_data(filepath=sys.argv[1])
-    pretty_print_json(raw_json_data)
+    json_content = load_data(filepath=sys.argv[1])
+    pretty_print_json(json_content)
